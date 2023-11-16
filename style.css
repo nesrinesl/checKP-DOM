@@ -1,0 +1,101 @@
+body {
+  margin-top: 0px;
+}
+
+#cards {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 30px;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+.qte {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-left: 50px;
+  margin-right: 50px;
+  font-size: 33px;
+}
+.liketrash {
+  display: flex;
+  justify-content: space-between;
+  font-size: 27px;
+}
+i {
+  cursor: pointer;
+}
+i:hover {
+  opacity: 0.9;
+}
+#title {
+  font-size: 60px;
+  margin-top: 40px;
+  display: flex;
+  justify-content: center;
+  font-family: "EB Garamond", serif;
+  font-weight: 500;
+  font-weight: bold;
+  color: brown;
+}
+#price {
+  display: flex;
+}
+
+.priceU {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+#basket {
+  font-size: 30px;
+}
+.reset {
+    margin: 30px;
+    width: 100px;
+    height: 40px;
+    border: none;
+    border-radius: 60px;
+    background-color: rgb(189, 189, 186);
+    color: rgb(58, 100, 227);
+    font-size: 20px;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.reset:hover{
+    background-color: rgb(255, 0, 0);
+    color: black;
+}
+#all{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 60px;
+    padding-right: 60px;
+}
+#payment{
+    display: flex;
+    align-items: center;
+    border: solid rgb(60, 5, 5) 5px;
+    border-radius: 6px;
+    width: 200px;
+}
+
+.fa-cart-shopping{
+    font-size: 40px;
+    padding-right: 20px;
+}
+#pay{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+#payT{
+  
+  font-size: 30px;
+  font-weight: 700;
+}
+#dollar{
+  font-size: 30px;
+  font-weight: bold;
+}
